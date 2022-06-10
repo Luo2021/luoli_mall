@@ -12,6 +12,7 @@
         <module>luoli-registry</module>
         <module>luoli-gateway</module>
         <module>luoli-item</module>
+        <module>luoli-common</module>
     </modules>
 
     <name>luoli_mall</name>
@@ -79,6 +80,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <!--所有模块都有-->
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
