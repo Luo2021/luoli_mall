@@ -4,7 +4,7 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://192.168.248.128:3306/luoli_mall?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    url: jdbc:mysql://192.168.248.130:3306/luoli_mall?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
     username: root
     password: 123456
 eureka:
